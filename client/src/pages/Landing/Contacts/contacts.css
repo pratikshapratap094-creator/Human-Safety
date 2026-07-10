@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contacts-page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.contacts-header h2 {
+  font-size: 28px;
+  color: #111;
+}
+
+.add-btn {
+  background: #ff3b3b;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-card {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-radius: 15px;
+  margin-bottom: 18px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  flex: 1;
+  margin-left: 18px;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  color: #222;
+}
+
+.contact-info p {
+  color: gray;
+  margin: 5px 0;
+}
+
+.contact-info span {
+  color: #555;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  box-shadow: 0 -3px 8px rgba(0,0,0,0.1);
+}
+
+.bottom-nav span {
+  color: gray;
+  cursor: pointer;
+}
+
+.bottom-nav .active {
+  color: red;
+  font-weight: bold;
+}
