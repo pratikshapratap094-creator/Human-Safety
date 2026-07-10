@@ -6,7 +6,6 @@ function Dashboard() {
 
   return (
     <div className="dashboard">
-
       <div className="header">
         <h2>Hello, User 👋</h2>
         <p>Your Safety, Our Priority</p>
@@ -22,7 +21,6 @@ function Dashboard() {
       </div>
 
       <div className="grid">
-
         <div className="card" onClick={() => navigate("/contacts")}>
           <h2>👥</h2>
           <p>Contacts</p>
@@ -33,7 +31,7 @@ function Dashboard() {
           <p>Tracking</p>
         </div>
 
-        <div className="card"onClick={()=>navigate("/recording")}>
+        <div className="card" onClick={() => navigate("/recording")}>
           <h2>🎤</h2>
           <p>Recording</p>
         </div>
@@ -42,8 +40,6 @@ function Dashboard() {
           <h2>📜</h2>
           <p>History</p>
         </div>
-        
-
       </div>
 
       <div className="bottom-nav">
@@ -53,9 +49,7 @@ function Dashboard() {
         <span onClick={() => navigate("/history")}>🕒</span>
         <span onClick={() => navigate("/profile")}>👤</span>
       </div>
-
     </div>
-    
   );
 }
 
